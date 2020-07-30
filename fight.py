@@ -26,6 +26,6 @@ def fight():  # 定义一个函数
             print("我赢了") # 打印我赢了
             print(f"我的剩余血量是:{my_hp}")  # 打印我的剩余血量
             print(f"敌人的剩余血量是:{your_hp}") # 打印敌人的剩余血量
-            break
+            break # 并且跳出循环，不再执行循环中的语句
 
 fight() # 调用函数
